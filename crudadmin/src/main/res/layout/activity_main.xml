@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="275dp"
+                android:gravity="center"
+
+                android:text="Thriftee"
+                android:textSize="32dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="400dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="27dp"
+       android:layout_gravity="center_horizontal"
+       android:padding="20dp">
+
+       <Button
+           android:id="@+id/welcome"
+           android:layout_width="258dp"
+           android:layout_height="50dp"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginEnd="60dp"
+           android:text="Get started"
+           android:textSize="18sp" />
+
+
+   </LinearLayout>
+</LinearLayout>
